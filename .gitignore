@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# never commit credentials
+.env
+*.key
+*.pem
+
+# OS noise
+.DS_Store
+Thumbs.db

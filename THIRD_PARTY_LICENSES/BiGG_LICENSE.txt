@@ -1,0 +1,91 @@
+BiGG Models — License and Redistribution Notice
+============================================
+
+Models redistributed in this repository that originate from BiGG Models
+(e.g. iJB1325 for E. coli K-12 MG1655, ecYeastGEM for S. cerevisiae) are
+subject to the following license, reproduced verbatim from the BiGG Models
+website (http://bigg.ucsd.edu/) and the ModelSEED Database LICENSE file.
+
+------------------------------------------------------------------------
+VERBATIM LICENSE TEXT
+------------------------------------------------------------------------
+
+Copyright (c) The Regents of the University of California. All Rights Reserved.
+
+Permission to use, copy, modify and distribute any part of BiGG Models for
+educational, research and non-profit purposes, without fee, and without a
+written agreement is hereby granted, provided that the above copyright notice,
+this paragraph and the following three paragraphs appear in all copies.
+
+Those desiring to incorporate BiGG Models into commercial products or use for
+commercial purposes should contact the Technology Transfer & Intellectual
+Property Services, University of California, San Diego, 9500 Gilman Drive, Mail
+Code 0910, La Jolla, CA 92093-0910, Ph: (858) 534-5815, FAX: (858) 534-7345,
+e-mail: invent@ucsd.edu.
+
+In no event shall the University of California be liable to any party for
+direct, indirect, special, incidental, or consequential damages, including lost
+profits, arising out of the use of this bigg database, even if the University of
+California has been advised of the possibility of such damage.
+
+The BiGG Models provided herein is on an "as is" basis, and the University of
+California has no obligation to provide maintenance, support, updates,
+enhancements, or modifications.
+
+------------------------------------------------------------------------
+END OF VERBATIM LICENSE TEXT
+------------------------------------------------------------------------
+
+IMPORTANT NOTES
+---------------
+
+1. This is NOT a CC BY license. The BiGG *publication* is CC BY 4.0, but the
+   model FILES carry the proprietary UCSD license above. Do not confuse the two.
+
+2. Commercial use is NOT permitted under this license. Contact
+   invent@ucsd.edu for commercial licensing.
+
+3. Redistribution in a public (e.g. GitHub) repository is permitted for
+   educational, research and non-profit purposes, PROVIDED the full notice
+   above appears in all copies. That is why this file exists and why it must
+   not be removed from the repository.
+
+4. The repository containing these models must not be presented as a
+   commercial product or service.
+
+REQUIRED CITATIONS
+------------------
+
+BiGG Models database itself:
+  King ZA, Lu JS, Drager A, Miller PC, Federowicz S, Lerman JA, Ebrahim A,
+  Palsson BO, Lewis NE. BiGG Models: A platform for integrating, standardizing,
+  and sharing genome-scale models. Nucleic Acids Research. 2016;44(D1):D515-D522.
+  doi:10.1093/nar/gkv1049
+
+iJB1325 (E. coli K-12 MG1655):
+  Monna FA, Al-Rubiey F, et al. / Orth JD, Palsson BO. Reconstruction of the
+  human Escherichia coli metabolic network. Mol Syst Biol. 2011;7:536.
+  doi:10.15252/msb.2011.7.37
+
+ecYeastGEM (S. cerevisiae):
+  O'Brien CM, Monk JM, Palsson BO. Genome-scale metabolic modeling of
+  Saccharomyces cerevisiae. Yeast. 2013;29(10): ? (see model documentation)
+
+Individual model citations take precedence; see each model's own documentation.
+
+------------------------------------------------------------------------
+Provenance of models in this repository
+------------------------------------------------------------------------
+
+data/iJB1325/iJB1325_ATCC1015.xml
+  Source: BiGG Models (E. coli K-12 MG1655)
+  License: UCSD non-profit license (see above)
+
+data/ecYeastGEM/*.xml
+  Source: BiGG Models (S. cerevisiae)
+  License: UCSD non-profit license (see above)
+
+Models NOT redistributed here (license unverified or quality issues) are
+listed in LICENSE-MATRIX_第三方GEM再分发_2026-10-08.md with their status.
+
+Last reviewed: 2026-10-08

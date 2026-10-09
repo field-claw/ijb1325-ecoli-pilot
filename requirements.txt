@@ -1,0 +1,12 @@
+# Runtime requirements for the iJB1325 pilot.
+# Install with:  python -m pip install -r requirements.txt
+#
+# The reference numbers in verify.py were produced with cobra 0.31.1
+# (bundled GLPK) on Python 3.14. Other versions should reproduce the growth
+# rate to within solver tolerance; if they do not, that is a finding worth
+# reporting, not something to paper over.
+
+cobra>=0.26,<0.32
+scipy>=1.10
+numpy>=1.24
+pandas>=2.0
